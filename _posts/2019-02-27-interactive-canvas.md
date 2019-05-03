@@ -1,14 +1,22 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: svg convert to image
+subtitle: "A Gentle Introduction to Making HTML5 Canvas Interactive"
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [html5 canvas]
 comments: true
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+svg를 이미지로 저장해야 할 때가 있다.
+codepen이나 github 등에 충분히 많은 예제들이 존재하지만, 최대한 상세하게 정리해 보려 한다.
+
+
+
+
+
+## Here is a secondary heading
+
 
 **Here is some bold text**
 

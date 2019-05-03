@@ -12,10 +12,7 @@ svg를 이미지로 저장해야 할 때가 있다.
 codepen이나 github 등에 충분히 많은 예제들이 존재하지만, 최대한 상세하게 정리해 보려 한다.
 
 
-
-
-
-## Here is a secondary heading
+# Here is a secondary heading
 
 
 **Here is some bold text**

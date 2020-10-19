@@ -1,7 +1,7 @@
 ---
 layout: post
-title: svg convert to image
-subtitle: "A Gentle Introduction to Making HTML5 Canvas Interactive"
+title: 브라우저 렌더링과 성능 최적화
+subtitle: "성능 최적화를 위한 기본 1"
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [html5 canvas]

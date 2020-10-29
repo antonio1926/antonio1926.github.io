@@ -246,7 +246,7 @@ createDocumentFragment는 DOM 노드들입니다. 하지만, 메인 DOM 트리�
 
 ```javascript
 const fragment = document.createDocumentFragment();
-appendDataElement(ul, data); //DOM 변경 의사 코드입니다.
+appendDataElement(fragment, data); //DOM 변경 의사 코드입니다.
 document.getElementById('myList').appendChild(fragment);
 ```
 <br>

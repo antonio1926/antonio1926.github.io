@@ -160,9 +160,9 @@ Repaint는 구형 익스플로러 등에서는 여전히 꽤 골치 아픈 문�
 | clientTop, clientLeft, clientwidth, clientHeight |
 | getComputedStyle() |
 
-예를 들어, 어떤 HTML엘리먼트의 정확한 위치 값을 알기 위해 element.offsetTop을 호출하는 순간, 브라우저는 정확한 offsetTop 값을 반환하기 위해 모든 큐를 비우고, 즉시 엘리먼트의 크기와 위치값들을 재계산합니다. 리플로우가 일어나는 거죠.
+예를 들어, 어떤 HTML엘리먼트의 정확한 위치 값을 알기 위해 element.offsetTop을 요청하는 순간, 브라우저는 정확한 offsetTop 값을 반환하기 위해 모든 큐를 비우고, 즉시 엘리먼트의 크기와 위치값들을 재계산합니다. 리플로우가 일어나는 거죠.
 
-element.offsetTop을 호출하는 것은 뼈다귀를 물고 있는 개에게 짖어보라고 요구하는 것과 마찬가지입니다. 짖으려면 일단 뼈다귀를 내려놔야죠. <br>
+element.offsetTop을 요청하는 것은 뼈다귀를 물고 있는 개에게 짖어보라고 요구하는 것과 마찬가지입니다. 짖으려면 일단 뼈다귀를 내려놔야죠. <br>
 밥 먹는데 말 시키는 것과도 같습니다. 밥 먹는데 자꾸 말시키면 얹히기 마련입니다.  
 
 루프문 내에 offsetTop 등의 값을 지속적으로 반복해서 구한다거나 하는 것은 최악입니다. 불가피하게 offsetTop 값을 구해야 한다면 이를 최소화 하고, 반복문 등에 사용해야 할 경우 루프 내에서 사용하지 말고, 루프 밖 변수에 저장해서 사용하는 것이 좋습니다.
@@ -240,7 +240,7 @@ DOM에서 완전히 분리된 조각을 만들어 수정한 후 원래 목록에
 
 Document.createDocumentFragment()를 활용해 이런 방법을 사용할 수 있습니다. 
 
-createDocumentFragment는 DOM 엘리먼트들입니다. 하지만, 메인 DOM 트리에는 속하지 않습니다. <br>
+createDocumentFragment는 DOM 노드입니다. 하지만, 메인 DOM 트리에는 속하지 않습니다. <br>
 렌더링 트리에도 속하지 않으므로, 변화를 주어도 리플로우가 일어나지 않습니다. 
 
 이론상으로는 createDocumentFragment를 활용해 리플로우를 한 번으로 줄일 수 있습니다.(원래 목록에 추가할 때)

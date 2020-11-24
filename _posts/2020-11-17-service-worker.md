@@ -4,7 +4,7 @@ title: 서비스 워커와 프로그레시브 웹 앱1
 subtitle: "서비스 워커에 대한 이해"
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [service worker, 서비스 워커, 오프라인 웹, 프로그레시브 웹 앱, progressive web app, web worker]
 comments: true
 ---
 

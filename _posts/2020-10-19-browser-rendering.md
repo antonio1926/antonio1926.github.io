@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 브라우저 렌더링과 성능 최적화
-subtitle: "성능 최적화를 위한 기본 1"
+subtitle: "성능 최적화를 위한 기본"
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [Browser Rendering, Reflow, Repaint, DOM, CSSOM, Rendering Tree, 브라우저 렌더링, 리플로우, 리페인트]

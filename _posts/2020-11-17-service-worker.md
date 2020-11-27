@@ -186,4 +186,10 @@ fetch API와 cache API로의 접근 덕분에 서비스 워커를 통해 웹사�
 
 푸시 알림에 대한 더 많은 설명은 [Joseph Medley](https://developers.google.com/web/fundamentals/push-notifications?hl=ko)의 글을 참조하실 수 있습니다. 
 
+#### 참조
 
+> 1) 《서비스 워커로 만드는 오프라인 웹사이트》제레미 키스, 웹 액츄얼리 코리아<br>
+> 2) [https://developers.google.com/web/fundamentals/primers/service-workers?hl=ko](https://developers.google.com/web/fundamentals/primers/service-workers?hl=ko)<br>
+> 3) [https://www.html5rocks.com/en/tutorials/workers/basics/](https://www.html5rocks.com/en/tutorials/workers/basics/)<br>
+> 4) [https://developers.google.com/web/updates/2015/12/background-sync?hl=ko](https://developers.google.com/web/updates/2015/12/background-sync?hl=ko)<br>
+> 5) [https://developers.google.com/web/updates/2015/03/push-notifications-on-the-open-web?hl=ko](https://developers.google.com/web/updates/2015/03/push-notifications-on-the-open-web?hl=ko)

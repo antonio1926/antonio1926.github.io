@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 브라우저 렌더링과 성능 최적화
-subtitle: "성능 최적화를 위한 기본"
+subtitle: "성능 최적화를 위한 기본1"
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [Browser Rendering, Reflow, Repaint, DOM, CSSOM, Rendering Tree, 브라우저 렌더링, 리플로우, 리페인트]
@@ -110,7 +110,7 @@ DOM트리와 렌더링 트리의 구조가 같지는 않습니다. <br>
 엘리먼트의 테두리 두께를 바꾸거나, 문단에 텍스트를 추가해서 줄이 늘어나는 등의 변화가 생기면 엘리먼트의 크기와 위치도 다시 계산해야 합니다.
 이를 리플로우라고 합니다. 
 
-![Replow](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/layout-viewport.png?hl=ko)
+![Reflow](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/layout-viewport.png?hl=ko)
 
 아래와 같은 퍼즐을 생각하면 이해가 쉽습니다. 
 수많은 퍼즐의 각 면이 아주 잘 짜맞춰져 하나의 아름다운 그림을 만들어냅니다. 브라우저의 화면도 이와 마찬가지입니다. 
@@ -121,7 +121,7 @@ DOM트리와 렌더링 트리의 구조가 같지는 않습니다. <br>
 그런데, 만약 퍼즐 조각 중 하나의 크기가 지금보다 두 배 더 커진다고 가정해 봅시다. 
 여러 엘리먼트가 맞물려 있는데, 그 중 하나만 크기가 커지면 틀이 망가지게 됩니다. 이때 그 한 개를 제외한 나머지 모든 퍼즐의 높이와 넓이, 위치를 모두 다시 계산해서 재배치 해야 합니다. 
 
-이 재배치를 위해 크기와 위치를 다시 계산하는 것을 Replow라고 이해하면 됩니다. <br>
+이 재배치를 위해 크기와 위치를 다시 계산하는 것을 Reflow라고 이해하면 됩니다. <br>
 영문 뜻 그대로 각 엘리먼트의 크기와 그에 따른 위치 등을 다시 계산해서 <u>레이아웃이 자연스럽게 흐르게 만든다(Reflow)</u>는 뜻입니다.
 
 ### 5) Repaint

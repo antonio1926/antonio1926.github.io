@@ -1,6 +1,6 @@
 ---
 layout: post
-title: javascript 메모리 관리
+title: web storage 사용에 대하여
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [javascript memory, heap memory, javascript memory leak, 자바스크립트 메모리 누수, 메모리 관리]
